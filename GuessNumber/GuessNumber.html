@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="GuessNumber.css">
+</head>
+
+<body>
+  <nav>
+    <aside id="name">
+      <h1><em>WELCOME TO RAJU'S</em> </h1>
+      <h1><em>GAME ZONE</em></h1>
+    </aside>
+    <a id="website" href="https://raajunellikanti.github.io/rajunellikati"><button>website</button></a>
+  </nav>
+  <div class="container">
+    <p>Guess the Number!</p>
+    <p id="caption">Guess a number between <strong>1</strong> and <strong>100</strong>.</p>
+    <input type="number" id="guessInput" placeholder="Enter your guess" min="1" max="100">
+    <button id="guessBtn">Guess</button>
+    <p id="feedback"></p>
+    <p id="attemt_label">Attempts: <span id="attempts">0</span></p>
+    <button id="ReStart">ReStart</button>
+  </div>
+  <script src="GuessNumber.js"></script>
+</body>
+
+</html>

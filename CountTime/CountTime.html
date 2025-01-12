@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Game</title>
+  <link rel="stylesheet" href="CountTime.css">
+</head>
+
+<body>
+  <nav>
+    <aside id="name">
+        <h1><em>WELCOME TO RAJU'S</em> </h1>
+        <h1><em>GAME ZONE</em></h1>
+    </aside>
+    <a id="website" href="https://raajunellikanti.github.io/rajunellikati"><button>website</button></a>
+</nav>
+  <div class="game-container">
+    <h1>Time Game</h1>
+    <p id="instructions">Press "Start" and try to stop the timer exactly at 5000ms!</p>
+    <div>
+      <button id="start-btn">Start</button>
+      <button id="stop-btn" disabled>Stop</button>
+    </div>
+    <marquee id="scroll" behavior="alternate" direction="left" scrollamount="10"></marquee>
+    <p id="result"></p>
+  </div>
+  <script src="CountTime.js"></script>
+</body>
+
+</html>

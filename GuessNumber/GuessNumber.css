@@ -1,0 +1,139 @@
+:root {
+  --bg-color: #0c0d14;
+  --text-color: #fff;
+  --main-color: rgb(6, 54, 72);
+  --second-color: gray;
+  --other-color: #12141c;
+  --h1-font: 5.2rem;
+  --h2-font: 3.5rem;
+  --p-font: 1.1rem;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  /* letter-spacing: 5px; */
+  font-family: "Nunito", serif;
+  /* font-style: italic; */
+  color: var(--text-color);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 15%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3vw;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--main-color);
+}
+
+#name>h1 {
+  letter-spacing: 5px;
+  color: var(--text-color);
+}
+
+#website {
+  text-decoration: none;
+}
+
+#website button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 150px;
+  padding: 5px;
+  margin-right: 3vw;
+  font-size: larger;
+  font-size: 20px;
+  letter-spacing: 5px;
+  background-color: var(--main-color);
+  border-radius: 5px;
+  border: none;
+}
+.container {
+    width: 320px;
+    text-align: center;
+    background: #071d4e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  header h1{
+    text-align: left;
+  }
+  
+  h1{
+    text-align: center;
+    color: var(--text-color);
+    margin: 10px 0px;
+  }
+  #caption{
+    color: var(--text-color);
+    margin: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    color:var(--main-color) ;
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: #a5c0dc;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #10913f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin: 10px; */
+  }
+  
+  button:hover {
+    background-color: #0d612c;
+    box-shadow:0 5px 10px rgba(20, 155, 49, 1) ;
+  }
+  
+  #feedback {
+    margin: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #620707;
+  }
+  #attemt_label{
+    color: #10913f;
+    margin: 10px;
+  }
+  
+  #attempts {
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px;
+  }
+  #ReStart{
+    margin: 10px;
+    background-color: rgb(149, 109, 33);
+  }
+  

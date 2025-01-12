@@ -1,0 +1,131 @@
+:root {
+  --bg-color: #0c0d14;
+  --text-color: #fff;
+  --main-color: rgb(6, 54, 72);
+  --second-color: gray;
+  --other-color: #12141c;
+  --h1-font: 5.2rem;
+  --h2-font: 3.5rem;
+  --p-font: 1.1rem;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  letter-spacing: 5px;
+  font-family: "Nunito", serif;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color:var(--bg-color);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 15%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3vw;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--main-color);
+}
+
+#name>h1 {
+  letter-spacing: 5px;
+  color: var(--text-color);
+}
+
+#website {
+  text-decoration: none;
+}
+
+#website button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 150px;
+  padding: 5px;
+  margin-right: 3vw;
+  font-size: larger;
+  font-size: 20px;
+  letter-spacing: 5px;
+  background-color: var(--main-color);
+  border-radius: 5px;
+  border: none;
+}
+ 
+ .game-container {
+    margin: auto;
+    max-width: 500px;
+    width: 70vw;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:var(--main-color);
+  }
+  
+  h1 {
+    color:red;
+  }
+  
+  #instructions {
+    font-size: var(--p-font);
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #start-btn:hover {
+    background-color: #0d612c;
+    box-shadow:5px 5px 10px green ;
+  }
+  
+  #start-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  #stop-btn:hover{
+    background-color: #600a12;
+    box-shadow:5px 5px 10px red ;
+  }
+  
+  #stop-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+  }
+  #scroll{
+    height: 30px;
+    width: 60%;
+    padding-top: 15px;
+  }
+  
+  #result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
